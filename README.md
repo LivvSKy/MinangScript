@@ -55,7 +55,7 @@ MinangScript adalah bahasa pemrograman eksperimental turunan JavaScript yang men
 ⚡ Instalasi
 Pastikan Node.js sudah terpasang di komputer Anda, lalu jalankan perintah berikut di terminal:
 ```
-npm install -g minangscript
+npm install -g @livvsky/minangscript
 ```
 
 Cek instalasi dengan mengetik:
