@@ -1,6 +1,6 @@
 🐃 MinangScript
 
-«Bahasa pemrograman dengan cita rasa Minangkabau.»
+# Bahasa pemrograman dengan cita rasa Minangkabau.
 
 MinangScript adalah bahasa pemrograman eksperimental turunan JavaScript yang menggunakan sintaks bahasa Minangkabau.
 
@@ -43,11 +43,11 @@ Pastikan Node.js sudah terpasang.
 
 Kemudian jalankan:
 
-npm install -g minangscript
+```npm install -g minangscript```
 
 Setelah selesai, cek instalasi:
 
-minang
+```minang```
 
 Untuk menjalankan program:
 
