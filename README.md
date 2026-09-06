@@ -1,96 +1,72 @@
+<div align="center">
 🐃 MinangScript
+Koding jo bahaso awak.
+npm version
 
-# Bahasa pemrograman dengan cita rasa Minangkabau.
+License: MIT
 
-MinangScript adalah bahasa pemrograman eksperimental turunan JavaScript yang menggunakan sintaks bahasa Minangkabau.
-
-Kode tetap memiliki kekuatan dan fleksibilitas JavaScript, tetapi keyword-nya diganti dengan kosakata Minangkabau.
-
-JavaScript       →       MinangScript
-
-let              →       buek
-const            →       pasti
-function         →       karajo
-return           →       pulangkan
-if               →       jiko
-else             →       lainnyo
-console.log      →       kicekkan
-true             →       bana
-false            →       salah
-
-MinangScript berjalan menggunakan Node.js dan menerjemahkan sintaks MinangScript menjadi JavaScript sebelum dieksekusi.
-
----
-
-✨ Fitur
-
-- Sintaks JavaScript dengan keyword Minangkabau
-- Mendukung file ".minang" dan ".ms"
-- Berjalan di atas Node.js
-- Mendukung variable, function, conditional, loop, class, dan error handling
-- Mendukung input pengguna melalui "tanyokan()"
-- Bisa digunakan sebagai command "minang"
-- Open source dengan lisensi MIT
-- Tidak membutuhkan framework besar
-
----
-
+Node.js Version
+MinangScript adalah bahasa pemrograman eksperimental turunan JavaScript yang menggunakan sintaks dan kosakata khas Minangkabau. Tetap mempertahankan fleksibilitas dan kekuatan ekosistem JavaScript, namun disajikan dengan sentuhan lokal nan akrab.
+</div>
+🗺️ Perbandingan Sintaks
+| MinangScript | JavaScript | Keterangan |
+|---|---|---|
+| buek | let | Membuat variable |
+| pasti | const | Membuat konstanta |
+| karajo | function | Membuat fungsi |
+| pulangkan | return | Mengembalikan nilai |
+| jiko | if | Kondisi percabangan |
+| lainnyo | else | Kondisi alternatif |
+| untuak | for | Perulangan for |
+| salamo | while | Perulangan while |
+| baranti | break | Menghentikan loop |
+| lanjuik | continue | Melanjutkan loop |
+| bana | true | Boolean benar |
+| salah | false | Boolean salah |
+| kosong | null | Nilai null |
+| indak_jaleh | undefined | Nilai undefined |
+| kicekkan | console.log | Output terminal |
+| tanyokan | prompt | Input pengguna |
+| cubo | try | Blok percobaan error |
+| tangkok | catch | Menangkap error |
+| akhirnyo | finally | Blok akhir eksekusi |
+| kelas | class | Membuat class |
+| iko | this | Referensi object |
+| baru | new | Membuat instance baru |
+| bantuak | typeof | Mengecek tipe data |
+✨ Fitur Utama
+ * ⚡ Berbasis Node.js: Menerjemahkan sintaks MinangScript menjadi JavaScript murni secara on-the-fly sebelum dieksekusi.
+ * 📁 Ekstensi Fleksibel: Mendukung file berformat .minang dan .ms.
+ * 🛠️ Fitur Lengkap: Mendukung variabel, fungsi, percabangan, perulangan, object-oriented (class), hingga error handling.
+ * 💬 Interaktif: Mendukung input langsung dari terminal melalui fungsi tanyokan().
+ * 🪶 Ringan: Tanpa dependensi framework yang berat dan langsung siap digunakan sebagai CLI global (minang).
 ⚡ Instalasi
+Pastikan Node.js sudah terpasang di komputer Anda, lalu jalankan perintah berikut di terminal:
+npm install -g minangscript
 
-Cara tercepat
+Cek instalasi dengan mengetik:
+minang
 
-Pastikan Node.js sudah terpasang.
-
-Kemudian jalankan:
-
-```npm install -g minangscript```
-
-Setelah selesai, cek instalasi:
-
-```minang```
-
-Untuk menjalankan program:
-
-minang program.minang
-
-«Tidak perlu "git clone". Tidak perlu masuk ke folder repository. Install langsung dari npm.»
-
-Alternatif: menggunakan "npx"
-
-Kalau tidak ingin memasang package secara permanen:
-
-npx minangscript program.minang
-
----
-
+> Catatan: Anda juga bisa langsung menjalankannya tanpa instalasi permanen menggunakan npx:
+> npx minangscript program.minang
+> 
+> 
 🚀 Quick Start
-
-Buat file:
-
-halo.minang
-
-Isi dengan:
-
+ * Buat file baru dengan nama halo.minang
+ * Masukkan kode berikut:
 buek namo = "Sanak";
 
 kicekkan("Halo " + namo + "!");
 
-Kemudian jalankan:
-
+ * Jalankan program melalui terminal:
 minang halo.minang
 
 Output:
-
 Halo Sanak!
 
 Selamat datang di dunia MinangScript. 🐃
-
----
-
 🧠 Contoh Program
-
-MinangScript sengaja mempertahankan struktur JavaScript sehingga programmer JavaScript dapat beradaptasi dengan cepat.
-
+Struktur kode MinangScript dirancang mirip dengan JavaScript agar programmer dapat beradaptasi dengan cepat:
 buek namo = "Uda Coding";
 pasti umua = 20;
 
@@ -107,172 +83,11 @@ jiko (umua >= 18) {
 }
 
 Output:
-
 Halo sanak Uda Coding!
 Sanak alah gadang.
 
----
-
-📖 Sintaks
-
-MinangScript| JavaScript| Fungsi
-"buek"| "let"| Membuat variable
-"pasti"| "const"| Membuat konstanta
-"karajo"| "function"| Membuat fungsi
-"pulangkan"| "return"| Mengembalikan nilai
-"jiko"| "if"| Kondisi
-"lainnyo"| "else"| Kondisi alternatif
-"untuak"| "for"| Perulangan
-"salamo"| "while"| Perulangan
-"baranti"| "break"| Menghentikan loop
-"lanjuik"| "continue"| Melanjutkan loop
-"bana"| "true"| Boolean benar
-"salah"| "false"| Boolean salah
-"kosong"| "null"| Nilai null
-"indak_jaleh"| "undefined"| Nilai undefined
-"kicekkan"| "console.log"| Output terminal
-"tanyokan"| "prompt"| Input pengguna
-"cubo"| "try"| Mencoba eksekusi
-"tangkok"| "catch"| Menangkap error
-"akhirnyo"| "finally"| Eksekusi akhir
-"kelas"| "class"| Membuat class
-"iko"| "this"| Referensi object
-"baru"| "new"| Membuat instance
-"bantuak"| "typeof"| Mengecek tipe data
-
----
-
-🔄 Variable
-
-JavaScript:
-
-let nama = "Livio";
-const umur = 17;
-
-MinangScript:
-
-buek namo = "Livio";
-pasti umua = 17;
-
-Variable yang dibuat dengan "buek" tetap mengikuti perilaku "let" JavaScript.
-
----
-
-🔧 Function
-
-karajo tambah(a, b) {
-    pulangkan a + b;
-}
-
-buek hasil = tambah(10, 20);
-
-kicekkan(hasil);
-
-Output:
-
-30
-
----
-
-🔀 Conditional
-
-buek umua = 20;
-
-jiko (umua >= 18) {
-    kicekkan("Buliah masuak.");
-} lainnyo {
-    kicekkan("Indak buliah masuak.");
-}
-
----
-
-🔁 For Loop
-
-untuak (buek i = 1; i <= 5; i++) {
-    kicekkan("Angko: " + i);
-}
-
-Output:
-
-Angko: 1
-Angko: 2
-Angko: 3
-Angko: 4
-Angko: 5
-
----
-
-⏳ While Loop
-
-buek angko = 0;
-
-salamo (angko < 3) {
-    kicekkan("Angko: " + angko);
-    angko++;
-}
-
----
-
-🧯 Error Handling
-
-MinangScript juga mendukung "try", "catch", dan "finally".
-
-cubo {
-    buek data = kosong;
-
-    kicekkan(data.panjang);
-} tangkok (error) {
-    kicekkan("Ado nan salah: " + error.message);
-} akhirnyo {
-    kicekkan("Program salasai.");
-}
-
----
-
-💬 Input Pengguna
-
-Gunakan "tanyokan()" untuk meminta input dari terminal.
-
-buek namo = tanyokan("Sia namo sanak? ");
-
-jiko (namo) {
-    kicekkan("Rancak bana, " + namo + "!");
-} lainnyo {
-    kicekkan("Kok diam se?");
-}
-
-Pastikan dependency "prompt-sync" tersedia ketika menggunakan fitur input.
-
----
-
-📁 Extension File
-
-MinangScript mendukung dua extension:
-
-.minang
-.ms
-
-Contoh:
-
-program.minang
-hello.ms
-game.minang
-test.ms
-
-Menjalankannya:
-
-minang program.minang
-
-atau:
-
-minang hello.ms
-
----
-
 🏗️ Cara Kerja
-
-MinangScript menggunakan pendekatan sederhana:
-
+MinangScript bekerja dengan menerjemahkan barisan kode bahasa Minangkabau menjadi kode standar JavaScript yang kemudian dieksekusi oleh runtime Node.js.
 ┌──────────────────────┐
 │  File .minang / .ms  │
 └──────────┬───────────┘
@@ -295,147 +110,42 @@ MinangScript menggunakan pendekatan sederhana:
 │ Runtime / Node.js    │
 └──────────────────────┘
 
-Contoh:
-
-buek nama = "Livio";
-
-diterjemahkan menjadi:
-
-let nama = "Livio";
-
-Sedangkan:
-
-kicekkan("Halo!");
-
-menjadi:
-
-console.log("Halo!");
-
-Kemudian kode tersebut dieksekusi oleh Node.js.
-
----
-
-🛠️ Menjalankan dari Source
-
-Kalau ingin ikut mengembangkan MinangScript, clone repository:
-
+🛠️ Pengembangan (Development)
+Jika Anda ingin ikut berkontribusi atau memodifikasi source code MinangScript:
+# Clone repository
 git clone https://github.com/LivvSKy/MinangScript.git
 cd MinangScript
 
-Install dependency:
-
+# Install dependensi
 npm install
 
-Jalankan interpreter:
-
-node minang.js contoh.minang
-
-Atau buat command global untuk development:
-
+# Hubungkan package secara lokal untuk development
 npm link
 
-Kemudian:
-
+# Jalankan file contoh
 minang contoh.minang
 
----
-
-📦 Struktur Project
-
-MinangScript/
-├── minang.js
-├── contoh.minang
-├── package.json
-├── package-lock.json
-├── .gitignore
-└── README.md
-
----
-
-🧪 Testing
-
-Contoh program dapat dijalankan dengan:
-
-npm test
-
-Atau secara langsung:
-
-node minang.js contoh.minang
-
----
-
 🗺️ Roadmap
-
-MinangScript masih dalam tahap awal pengembangan.
-
-[x] Interpreter dasar
-[x] Keyword Minangkabau
-[x] File .minang
-[x] File .ms
-[x] Variable
-[x] Function
-[x] Conditional
-[x] Loop
-[x] Error handling
-[x] Input terminal
-[x] npm package
-
-[ ] Lexer & parser sendiri
-[ ] AST
-[ ] Error message khusus MinangScript
-[ ] Module system
-[ ] Standard library
-[ ] Formatter
-[ ] Syntax highlighting
-[ ] VS Code extension
-[ ] REPL interaktif
-
----
-
+ * [x] Interpreter dasar
+ * [x] Dukungan keyword Minangkabau
+ * [x] Ekstensi .minang & .ms
+ * [x] Variabel, Function, & Conditional
+ * [x] Perulangan (Loop) & Error Handling
+ * [x] Input terminal & Publikasi Package NPM
+ * [ ] Pembuatan Lexer & Parser mandiri
+ * [ ] Abstract Syntax Tree (AST)
+ * [ ] Pesan error khusus berbahasa Minang
+ * [ ] Sistem Modul & Standard Library
+ * [ ] Ekstensi & Syntax Highlighting untuk VS Code
+ * [ ] REPL Interaktif
 🤝 Contributing
-
-Pull request, issue, ide sintaks, dan eksperimen baru sangat dipersilakan.
-
-Alur sederhana:
-
-git clone https://github.com/LivvSKy/MinangScript.git
-cd MinangScript
-npm install
-
-Buat perubahan, kemudian test:
-
-npm test
-
-Setelah itu buat pull request.
-
----
-
+Kontribusi, laporan issue, ide kosakata baru, maupun kritik dan saran sangat dipersilakan! Silakan buat Pull Request atau buka Issue pada repository GitHub.
 📜 License
-
-MinangScript dirilis menggunakan lisensi MIT.
-
-Bebas digunakan, dipelajari, dimodifikasi, dan dikembangkan sesuai ketentuan lisensi.
-
----
-
+Distribusi di bawah lisensi MIT. Bebas digunakan, dipelajari, dimodifikasi, dan disebarluaskan.
 👤 Author
-
 LivvSKy
-
-GitHub:
-
-https://github.com/LivvSKy
-
-Repository:
-
-https://github.com/LivvSKy/MinangScript
-
----
-
-<div align="center">🐃 MinangScript
-
-Koding jo bahaso awak.
-
+ * GitHub: LivvSKy
+ * Repository: MinangScript
+<div align="center">
 Made with JavaScript, Node.js, and a little bit of Minangkabau.
-
 </div>
