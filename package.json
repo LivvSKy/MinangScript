@@ -1,0 +1,26 @@
+{
+  "name": "minangscript",
+  "version": "1.0.0",
+  "description": "Bahasa pemrograman turunan JavaScript dengan sintaks bahasa Minangkabau.",
+  "main": "minang.js",
+  "bin": {
+    "minang": "./minang.js"
+  },
+  "scripts": {
+    "test": "node minang.js contoh.minang"
+  },
+  "author": "LivvSKy",
+  "license": "MIT",
+  "keywords": [
+    "minangscript",
+    "minangkabau",
+    "minang",
+    "programming-language",
+    "javascript",
+    "interpreter",
+    "bahasa-pemrograman"
+  ],
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

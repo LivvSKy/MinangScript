@@ -1,0 +1,64 @@
+// Ini adalah contoh minangscript (.minang atau .ms)
+// Kalian bisa menulis kode JavaScript kayak biasanya, tapi dengan bahasa Minang!
+// Ini contoh dari minangscript
+
+// 1. Mambuek Variabel
+buek namo = "Uda Coding";
+pasti umua = 25;
+buek sadangMakan = bana;
+
+// 2. Mambuek Fungsi (Function)
+karajo sapoUrang(n) {
+    kicekkan("Halo sanak " + n + ", baa kaba rasonyo?");
+}
+
+// Mamanggia fungsi
+sapoUrang(namo);
+
+// 3. Pangondisian (If / Else)
+jiko (umua >= 18) {
+    kicekkan("Sanak alah gadang, buliah masuak.");
+} lainnyo jiko (umua > 12) {
+    kicekkan("Sanak masih mudo.");
+} lainnyo {
+    kicekkan("Bujang/Gadih ketek, dilarang masuak!");
+}
+
+// 4. Parulangan (For Loop)
+kicekkan("\nBaretong mulai:");
+untuak (buek i = 1; i <= 5; i++) {
+    jiko (i === 3) {
+        kicekkan("Angko 3 kito lompek i!");
+        lanjuik; // malompek (continue)
+    }
+    kicekkan("Angko: " + i);
+}
+
+// 5. Parulangan (While Loop)
+buek angko = 0;
+salamo (angko < 2) {
+    kicekkan("Lagi putar: " + angko);
+    angko++;
+}
+
+// 6. Error Handling (Try / Catch)
+kicekkan("\nCubo manangkok error:");
+cubo {
+    buek data = kosong;
+    // Iko pasti error dek karano manggolek properti dari null
+    kicekkan(data.panjang);
+} tangkok (error) {
+    kicekkan("Ondeh mande ado nan salah: " + error.message);
+} akhirnyo {
+    kicekkan("Alhamdulillah salasai!\n");
+}
+
+// 7. Input dari pangguno (Prompt)
+// Pastikan sanak alah run `npm install` sabalunnyo untuak prompt-sync
+buek tanyo = tanyokan("Sia namo sanak? ");
+jiko (tanyo) {
+    kicekkan("Rancak bana namonyo, " + tanyo + "!");
+} lainnyo {
+    kicekkan("Kok sanak diam se?");
+}
+
