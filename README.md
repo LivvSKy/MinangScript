@@ -37,15 +37,16 @@ MinangScript adalah bahasa pemrograman eksperimental turunan JavaScript yang men
 </div>
 
 ✨ Fitur Utama
- * ⚡ Berbasis Node.js: Menerjemahkan sintaks MinangScript menjadi JavaScript murni secara on-the-fly sebelum dieksekusi.
- * 📁 Ekstensi Fleksibel: Mendukung file berformat .minang dan .ms.
- * 🛠️ Fitur Lengkap: Mendukung variabel, fungsi, percabangan, perulangan, object-oriented (class), hingga error handling.
- * 💬 Interaktif: Mendukung input langsung dari terminal melalui fungsi tanyokan().
- * 🪶 Ringan: Tanpa dependensi framework yang berat dan langsung siap digunakan sebagai CLI global (minang).
+ * Berbasis Node.js: Menerjemahkan sintaks MinangScript menjadi JavaScript murni secara on-the-fly sebelum dieksekusi.
+ * Ekstensi Fleksibel: Mendukung file berformat .minang dan .ms.
+ * Fitur Lengkap: Mendukung variabel, fungsi, percabangan, perulangan, object-oriented (class), hingga error handling.
+ * Interaktif: Mendukung input langsung dari terminal melalui fungsi tanyokan().
+ * Ringan: Tanpa dependensi framework yang berat dan langsung siap digunakan sebagai CLI global (minang).
 
 ⚡ Instalasi
 Pastikan Node.js sudah terpasang di komputer Anda, lalu jalankan perintah berikut di terminal:
 ```
+javascript
 npm install -g minangscript
 ```
 
