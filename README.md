@@ -7,7 +7,7 @@ License: MIT
 
 Node.js Version
 MinangScript adalah bahasa pemrograman eksperimental turunan JavaScript yang menggunakan sintaks dan kosakata khas Minangkabau. Tetap mempertahankan fleksibilitas dan kekuatan ekosistem JavaScript, namun disajikan dengan sentuhan lokal nan akrab.
-</div>
+
 🗺️ Perbandingan Sintaks
 | MinangScript | JavaScript | Keterangan |
 |---|---|---|
@@ -34,6 +34,7 @@ MinangScript adalah bahasa pemrograman eksperimental turunan JavaScript yang men
 | iko | this | Referensi object |
 | baru | new | Membuat instance baru |
 | bantuak | typeof | Mengecek tipe data |
+</div>
 ✨ Fitur Utama
  * ⚡ Berbasis Node.js: Menerjemahkan sintaks MinangScript menjadi JavaScript murni secara on-the-fly sebelum dieksekusi.
  * 📁 Ekstensi Fleksibel: Mendukung file berformat .minang dan .ms.
