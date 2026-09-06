@@ -63,6 +63,8 @@ minang
 > 
 > 
 
+---
+
 <div align="center">
 Made with JavaScript, Node.js, and a little bit of Minangkabau.
 </div>
